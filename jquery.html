@@ -1,0 +1,32 @@
+<html>
+    <head>
+      <title>aula de jquery</title>
+        <script src="jquery-3.6.0.min.js"></script>
+         <style>
+             .titulo {
+                 color:blue;
+             }
+         </style>
+
+
+
+
+
+    </head>
+
+    <body>
+        <h1 class="titulo">aula de jquery</h1>
+          <button onclick="mudar()">mudar cor</button>
+           <script>
+              
+              function mudar()
+              {
+             var el = jQuery(".titulo");
+             
+             el.css("color", "red");
+            }
+           </script>
+
+
+    </body>
+</html>

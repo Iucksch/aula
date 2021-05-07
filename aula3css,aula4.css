@@ -1,0 +1,23 @@
+
+
+
+
+/*seletor de tag
+ */
+h1 {
+    color: brown;
+}
+
+.verde {
+    color: green;
+}
+.fundo {
+    background-color: peru;
+}
+h3.fundo {
+
+    background-color: fuchsia;
+}
+#tit4 {
+    color:indigo
+}
